@@ -1,0 +1,91 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #292929;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #42B983;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+  background-color: #555555;
+  color: #FFFFFF;
+}
+
+input[type="text"]::placeholder {
+  color: #CCCCCC;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #FF8C00;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 5%;
+  height: 5%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#clear-btn {
+  padding: 10px 20px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  background-color: #555555;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 60vw;
+}
